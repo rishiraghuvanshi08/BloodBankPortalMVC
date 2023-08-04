@@ -1,0 +1,82 @@
+thead {
+    background: red;
+}
+
+table th,
+table td {
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #ff00001f;
+    color: black
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    --bs-table-accent-bg: white;
+    color: black;
+}
+
+th {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.pagination {
+    margin: 0;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover .pagination li:hover {
+    z-index: 3;
+    color: white;
+    background-color: #ff0000;
+    border-color: red;
+    border-radius: 3px;
+}
+
+.header_wrap {
+    padding: 30px 0;
+}
+
+.num_rows {
+    width: 20%;
+    float: left;
+}
+
+.tb_search {
+    width: 11%;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tb_search-2 {
+    width: 15%;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pagination-container {
+    width: 70%;
+    float: left;
+}
+
+.rows_count {
+    width: 20%;
+    float: right;
+    text-align: right;
+    color: #999;
+}
+
+li>span{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
